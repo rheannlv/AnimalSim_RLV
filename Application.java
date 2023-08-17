@@ -62,6 +62,12 @@ public class Application {
 		System.out.println();
 		
 		//Animal animal = new Animal();
+
+		System.out.println();
+		System.out.println("*********************************************");
+		System.out.println("Generic Tests");
+		System.out.println("*********************************************");
+		System.out.println();
 	
 		ArrayList<Animal> animalArray = new ArrayList<Animal>();
 		BrownBear yogi = new BrownBear(3, new Location (2,3), "Siberian");

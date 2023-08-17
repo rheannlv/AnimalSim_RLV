@@ -44,7 +44,7 @@ public class Location {
 	
 	public int getxCoor() {
 		return xCoor;
-	}
+	}//end getx
 
 	public void setxCoor(int xCoor) {
 		
@@ -57,11 +57,11 @@ public class Location {
 			} catch (InvalidCoordinateException e) {
 				System.out.println(e.getMessage());
 			}
-	}
+	}//end setx
 
 	public int getyCoor() {
 		return yCoor;
-	}
+	}//end gety
 
 	public void setyCoor(int yCoor) {
 		
@@ -74,7 +74,7 @@ public class Location {
 		} catch (InvalidCoordinateException e) {
 			System.out.println(e.getMessage());
 		}
-		}
+	}//end sety
 
 	public int[] getCoordinates() {
 		return new int[] {xCoor ,yCoor}; 
